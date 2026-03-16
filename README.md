@@ -1,67 +1,90 @@
 <div align="center">
 
-# Istiaque (Utshox)
-**Machine Learning / Computer Vision — Medical Image Segmentation**
+# Hi, I’m Istiaque (Utshox)
 
-I build experiment-driven ML systems with a focus on **high-resolution segmentation**, **semi-supervised learning**, and **reproducible pipelines**.
+**ML Engineer / Computer Vision · Medical Imaging · Research-to-Engineering**
 
-**CV / Portfolio:** https://istiaque.cv
+I like building systems where **experiments turn into reliable code**: solid baselines, clean preprocessing, reproducible training, and verification-focused inference.
+
+**CV / timeline:** https://istiaque.cv
 
 </div>
 
 ---
 
-## Current focus
-- **Medical image segmentation (CT)** — patch-based learning to preserve native resolution
-- **Semi-supervised learning (SSL)** — strong performance with fewer labels (Mean Teacher)
-- **Reliable experimentation** — preprocessing → training → inference → verification
+## What I work on (most in-demand areas I’m leaning into)
+- **ML Engineering (production mindset):** reproducible pipelines, evaluation, inference, and verification
+- **Computer Vision / Segmentation (medical imaging):** resolution-preserving training, label efficiency
+- **Applied GenAI (selectively):** RAG + evaluation/quality (when it solves a real workflow)
 
 ---
 
-## Featured work (high-signal projects)
+## Engineering velocity & footprint
+<div align="center">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Utshox&theme=radical" alt="GitHub Stats" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Utshox&theme=radical" alt="Top Languages" />
+</div>
 
-### High-Resolution Patch-Based Pancreas Segmentation (v2)
+---
+
+## Featured projects
+
+### 🧠 High-Resolution Patch-Based Pancreas Segmentation (v2)
+**Domain:** Computer Vision / Healthcare AI  
 **Repo:** https://github.com/Utshox/pancreas-segmentation-resolution-study-v2  
+**Stack:** Python, TensorFlow/Keras, medical imaging preprocessing, HPC workflow
 
-A patch-based framework that avoids aggressive downsampling by training on **256×256 patches extracted from 512×512 CT slices**.
+**What it is:** A patch-based segmentation framework designed to **preserve native CT slice resolution** instead of downsampling away detail.  
+**Results (from repo logs/README):**
+- Reported **Dice up to ~0.85**, with a verified average **≈ 0.815** on a small test subset
+- **Mean Teacher SSL ~0.83 Dice with 50% labeled data**, approaching full-supervision performance
 
-- Reported **Dice up to ~0.85** (supervised patch baseline) and **verified avg ≈ 0.815** on a small test subset
-- SSL result: **Mean Teacher ~0.83 Dice with 50% labeled data** (near full-supervision performance)
-- Research direction: conference-level study → **journal roadmap** (resolution/FOV trade-offs, ablations, validation)
+**Why it matters:** In medical segmentation, practical gains often come from “boring” fundamentals done well: **resolution, preprocessing, inference strategy, verification**.
 
-### Pancreas Segmentation Resolution Study (v1)
+---
+
+### 🧪 Pancreas Segmentation Resolution Study (v1)
+**Domain:** Computer Vision / Semi-supervised learning  
 **Repo:** https://github.com/Utshox/pancreas-segmentation-resolution-study  
+**Stack:** Python, TensorFlow/Keras, NIfTI preprocessing
 
-A resolution study showing that **preserving native resolution via patching** improves segmentation quality.
+**Key finding (repo README):**
+- **Dice 0.73 → 0.85** by preserving resolution with patching  
+- **Mean Teacher (50% labeled): ~0.83 Dice**, outperforming FixMatch in this setting
 
-- Key finding: **Dice 0.73 → 0.85** by avoiding resize-heavy pipelines
-- Mean Teacher SSL with **50% labels: ~0.83 Dice**, outperforming FixMatch in this setting
-- Implementation highlights:
-  - HU windowing **[-125, 275]** + normalization
-  - balanced foreground/background patch sampling from NIfTI volumes
-  - sliding-window inference to reconstruct full-resolution predictions
-
----
-
-## What I’m comfortable building end-to-end
-- **Data & preprocessing:** NIfTI pipelines, CT windowing/normalization, patch extraction strategies
-- **Modeling:** U-Net style segmentation, SSL (Mean Teacher / consistency), evaluation (Dice/IoU)
-- **Inference:** sliding-window / patch reconstruction, qualitative visualization & verification
-- **Engineering:** reproducible scripts, organized experiment outputs, readable code
+**Implementation highlights:**
+- HU windowing **[-125, 275]** + normalization
+- balanced patch sampling (foreground/background)
+- sliding-window inference to reconstruct full-resolution predictions
 
 ---
 
-## Selected other projects
-- Scientific article similarity (ML research): https://github.com/Utshox/Machine-Learning-based-Scientific-Article-Similarity-Checking-Research
-- Portfolio site repo: https://github.com/Utshox/Istiaque-Portfolio
-- React + TS e-commerce pilot: https://github.com/Utshox/symfony-ecommerce-pilot
+### 🔎 Scientific Article Similarity (Semantic Search)
+**Domain:** NLP / ML  
+**Repo:** https://github.com/Utshox/Machine-Learning-based-Scientific-Article-Similarity-Checking-Research  
+
+A research-oriented prototype for detecting semantic overlap in academic text using **embeddings + similarity** (beyond lexical matching).
 
 ---
 
-## Quick numbers (from my recent segmentation research)
-- **512×512 native resolution preserved** via patching  
-- **256×256 patch-based training + sliding-window inference**
-- **Dice up to ~0.85** reported on NIH Pancreas-CT (project README results)
-- **~0.83 Dice with 50% labels** using Mean Teacher SSL
+### 🛒 Symfony eCommerce Pilot (Full-stack)
+**Domain:** Web Engineering  
+Repo: https://github.com/Utshox/Symfony-E-commerce-  
+
+A portfolio-ready Symfony project demonstrating structured backend architecture, ORM usage, and pragmatic full-stack delivery.
+
+---
+
+## Strengths (what teams hire for)
+- **Experiment discipline:** baselines → ablations → verification
+- **Data-to-inference ownership:** I don’t stop at training; I care about how results are produced and reproduced
+- **Polyglot engineering:** ML + web/product skills when needed (React/TS, Symfony/PHP, SQL)
+
+---
+
+## Open to opportunities
+I’m currently open to roles in **ML Engineering / Computer Vision / Research Engineering**.
+
+Best contact: https://istiaque.cv
 
 <sub>Last updated: 2026-03-16</sub>
