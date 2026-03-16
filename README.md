@@ -27,7 +27,7 @@ I like building systems where **experiments turn into reliable code**: solid bas
 
 <div align="center">
 <sub>
-⭐ <b>21</b> GitHub stars · building across ML/CV + full‑stack systems
+⭐ <b>21+</b> GitHub stars · building across ML/CV + full‑stack systems
 </sub>
 </div>
 
@@ -83,14 +83,5 @@ A portfolio-ready Symfony project demonstrating structured backend architecture,
 
 ## Strengths (what teams hire for)
 - **Experiment discipline:** baselines → ablations → verification
-- **Data-to-inference ownership:** I don’t stop at training; I care about how results are produced and reproduced
-- **Polyglot engineering:** ML + web/product skills when needed (React/TS, Symfony/PHP, SQL)
-
----
-
-## Open to opportunities
-I’m currently open to roles in **ML Engineering / Computer Vision / Research Engineering**.
-
-Best contact: https://istiaque.cv
-
-<sub>Last updated: 2026-03-16</sub>
+- **Data-to-inference ownership:** I don’t stop at training; I care about how results are produced
+
