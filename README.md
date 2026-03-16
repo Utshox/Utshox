@@ -21,13 +21,13 @@ I like building systems where **experiments turn into reliable code**: solid bas
 
 ## Engineering velocity & footprint
 <div align="center">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Utshox&theme=radical" alt="GitHub Stats" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Utshox&theme=radical" alt="Top Languages" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Utshox&theme=radical&v=2" alt="GitHub Stats" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Utshox&theme=radical&v=2" alt="Top Languages" />
 </div>
 
 <div align="center">
 <sub>
-⭐ <b>21+</b> GitHub stars · building across ML/CV + full‑stack systems
+⭐ <b>21+</b> repositories starred · active learner across ML/CV + software engineering
 </sub>
 </div>
 
@@ -45,7 +45,7 @@ I like building systems where **experiments turn into reliable code**: solid bas
 - Reported **Dice up to ~0.85**, with a verified average **≈ 0.815** on a small test subset
 - **Mean Teacher SSL ~0.83 Dice with 50% labeled data**, approaching full-supervision performance
 
-**Why it matters:** In medical segmentation, practical gains often come from “boring” fundamentals done well: **resolution, preprocessing, inference strategy, verification**.
+**Why it matters:** In medical segmentation, practical gains often come from fundamentals done well: **resolution, preprocessing, inference strategy, verification**.
 
 ---
 
@@ -75,7 +75,7 @@ A research-oriented prototype for detecting semantic overlap in academic text us
 
 ### 🛒 Symfony eCommerce Pilot (Full-stack)
 **Domain:** Web Engineering  
-Repo: https://github.com/Utshox/Symfony-E-commerce-  
+**Repo:** https://github.com/Utshox/Symfony-E-commerce-  
 
 A portfolio-ready Symfony project demonstrating structured backend architecture, ORM usage, and pragmatic full-stack delivery.
 
@@ -83,5 +83,14 @@ A portfolio-ready Symfony project demonstrating structured backend architecture,
 
 ## Strengths (what teams hire for)
 - **Experiment discipline:** baselines → ablations → verification
-- **Data-to-inference ownership:** I don’t stop at training; I care about how results are produced
-
+- **Data-to-inference ownership:** I don’t stop at training; I care about how results are produced and reproduced
+- **Polyglot engineering:** ML + web/product skills when needed (React/TS, Symfony/PHP, SQL)
+
+---
+
+## Open to opportunities
+I’m currently open to roles in **ML Engineering / Computer Vision / Research Engineering**.
+
+Best contact: https://istiaque.cv
+
+<sub>Last updated: 2026-03-16</sub>
