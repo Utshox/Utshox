@@ -25,6 +25,12 @@ I like building systems where **experiments turn into reliable code**: solid bas
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Utshox&theme=radical" alt="Top Languages" />
 </div>
 
+<div align="center">
+<sub>
+⭐ <b>21</b> GitHub stars · building across ML/CV + full‑stack systems
+</sub>
+</div>
+
 ---
 
 ## Featured projects
